@@ -361,7 +361,19 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-
+/* Premier modif css*/
+.col-xs-12{
+    color: #575757;
+}
+.col-xs-12 .citation1{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 549;
+}
+.col-xs-12 .citation2{
+     font-size: 14px;
+}
+/**/
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
