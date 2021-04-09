@@ -297,12 +297,37 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
 }
-
+/*modif*/
+.navbar-headerpg2{
+    padding: 14px;
+}
+.navbarpg2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.collapsepg2{
+    width: 100px;
+    height: 98px;
+}
+.site-navigationpg2{
+    display: flex;
+    padding-top: 34px;
+    width: 11em;
+    height: 3em;
+    margin: auto;
+    margin-left: 100px;
+    padding: 20px;
+    list-style: none;
+}
+.site-navigationpg2 li{
+    margin-right: 33px;
+}
+/**/
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
