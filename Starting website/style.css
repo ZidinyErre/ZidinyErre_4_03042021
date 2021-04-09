@@ -26,7 +26,18 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+/*modif pas d'équivalent html à supprimer à la fin si pas utile*/
+.keywords1{
+    background-color: #cccccc;
+    width: 55px;
+    height: 0.1px;
+}
+.keywords2{
+    background-color: #cccccc;
+    width: 55px;
+    height: 0.1px;
+}
+/**/
 .bloc {
     width: 100%;
     clear: both;
