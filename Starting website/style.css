@@ -38,6 +38,11 @@ a:hover {
     height: 0.1px;
 }
 /**/
+/*modif*/
+.image-resize-mode{
+    width: 100px;
+}
+/**/
 .bloc {
     width: 100%;
     clear: both;
@@ -411,6 +416,11 @@ a:hover {
 }
 /**/
 @media (min-width: 768px) {
+    /*modif*/
+    body{
+        width: 100%;
+    }
+    /**/
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -449,6 +459,31 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    /*modif*/
+    .navbar-headerpg2__ipad{
+        padding: 14px 14px 14px 0px;
+    }
+    .navbarpg2__ipad{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .collapsepg2__ipad{
+        width: 100px;
+        height: 98px;
+    }
+    .site-navigationpg2__ipad{
+        display: flex;
+        padding-top: 34px;
+        width: 11em;
+        height: 3em;
+        margin: auto;
+        list-style: none;
+    }
+    .site-navigationpg2__ipad li{
+        margin-right: 33px;
+    }
+    /**/
 }
 
 .nav > li > .dropdown a {
@@ -1078,18 +1113,21 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    /*deuxième modif*/
+/*modif*/
+@media all  and (min-width: 320px) and (max-width: 480px){
     body{
         width: 100%;
     }
-    /**/
+    
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+    .form-group textarea{
+        width: 95%;
+    }
 }
-
+/**/
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
