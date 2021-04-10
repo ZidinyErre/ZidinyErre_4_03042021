@@ -858,11 +858,17 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
 .tc-white {
     color: #F3976C!important;
 }
-
+/*modif*/
+.tc-whitepg2 {
+    color: black !important;
+    background-color: #9C9C9C;
+    border-radius: 7px;
+    width: 38rem;
+}
+/**/
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #171717!important;
