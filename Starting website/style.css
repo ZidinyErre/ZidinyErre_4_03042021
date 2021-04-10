@@ -358,13 +358,13 @@ a:hover {
     font-weight: 600;
     line-height: 44px;
 }
-
+/*modif*/
 .navbar-brand img {
-    max-height: 200px;
+    width: 215px;
     margin: 0 5px 0 0;
     display: inline;
 }
-
+/**/
 .navbar-brand img[src$=svg] {
     min-width: 100px;
 }
@@ -839,11 +839,14 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
-
+/*modif*/
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 270px;
+    height: 270px;
+    margin: auto;
 }
-
+/**/
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
@@ -1147,6 +1150,30 @@ h4 {
     }
     .form-group textarea{
         width: 95%;
+    }
+
+    .col-sm-12pg1{
+        padding: 0px 2px;
+    }
+    .col-sm-12pg1 p{
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 549;
+    }
+    .col-sm-13pg1{
+        padding: 0px 38px;
+    }
+    .col-sm-13pg1 p{
+        font-size: 24px;
+        font-style: italic;
+        font-weight: 549;
+    }
+
+    .tc-whitepg2 {
+        color: black !important;
+        background-color: #9C9C9C;
+        border-radius: 7px;
+        width: 83%;
     }
 }
 /**/
