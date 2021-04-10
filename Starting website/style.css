@@ -324,7 +324,7 @@ a:hover {
     z-index: 1;
 }
 /*modif*/
-.navbar-headerpg2{
+/* .navbar-headerpg2{
     padding: 14px;
 }
 .navbarpg2{
@@ -348,7 +348,7 @@ a:hover {
 }
 .site-navigationpg2 li{
     margin-right: 33px;
-}
+} */
 /**/
 .navbar-brand {
     height: auto;
@@ -477,7 +477,7 @@ a:hover {
         margin: 10px auto 0;
     }
     /*modif*/
-    .navbar-headerpg2__ipad{
+    /* .navbar-headerpg2__ipad{
         padding: 14px 14px 14px 0px;
     }
     .navbarpg2__ipad{
@@ -499,7 +499,7 @@ a:hover {
     }
     .site-navigationpg2__ipad li{
         margin-right: 33px;
-    }
+    } */
     /**/
 }
 
