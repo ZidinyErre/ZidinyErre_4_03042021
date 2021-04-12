@@ -5,6 +5,8 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+
 }
 
 a,
@@ -41,6 +43,7 @@ a:hover {
 /*modif*/
 .image-resize-mode{
     width: 100px;
+    height: 100px;
 }
 /**/
 .bloc {
