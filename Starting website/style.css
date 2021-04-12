@@ -743,7 +743,7 @@ a[data-lightbox]:hover img {
     color: rgba(0, 0, 0, .5);
     background: none;
 }
-
+/*modif*/
 h1,
 h2,
 h3,
@@ -756,9 +756,13 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #363636!important;
+    font-size: 17px;
 }
-
+div ol{
+    list-style: disc;
+}
+/**/
 .container {
     max-width: 1000px;
 }
@@ -838,10 +842,11 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-
+/*modif*/
 .white {
-    color: #FFFFFF!important;
+    color: #1A1A1A!important;
 }
+/**/
 /*modif*/
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -880,9 +885,11 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
+/*modif*/
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
+/**/
 /*modif*/
 .tc-whitepg2 {
     color: black !important;
