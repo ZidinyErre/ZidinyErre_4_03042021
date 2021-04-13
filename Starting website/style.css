@@ -815,6 +815,12 @@ p {
 .icon-md {
     font-size: 22px!important;
 }
+.fa-dribbble{
+    margin-left: 5px;
+}
+.fa-instagram{
+    margin-left: 6px;
+}
 /**/
 
 h3 {
@@ -889,6 +895,9 @@ h4 {
 .tc-white {
     color: #FFFFFF!important;
 }
+.h1pg2{
+    color: #212121!important;
+}
 /**/
 /*modif*/
 .tc-whitepg2 {
@@ -936,11 +945,14 @@ h4 {
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
-
+/*modif*/
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere_2.jpg");
+    width: 1560px;
+    height: 439px;
+    padding: 0px;
 }
-
+/**/
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
