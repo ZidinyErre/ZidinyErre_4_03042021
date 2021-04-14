@@ -81,7 +81,7 @@ a:hover {
 .col-sm-12pg1 p{
     font-size: 20px;
     font-style: italic;
-    font-weight: 549;
+    font-weight: 500;
 }
 .col-sm-13pg1{
     padding: 0px 250px;
@@ -89,7 +89,7 @@ a:hover {
 .col-sm-13pg1 p{
     font-size: 24px;
     font-style: italic;
-    font-weight: 549;
+    font-weight: 500;
 }
 /**/
 .bg-center,
@@ -417,7 +417,7 @@ a:hover {
 .col-xs-12 .citation1{
     font-size: 20px;
     font-style: italic;
-    font-weight: 549;
+    font-weight: 500;
 }
 .col-xs-12 .citation2{
      font-size: 14px;
@@ -1013,8 +1013,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -1024,8 +1024,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /*padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);*/
     }
 }
 
@@ -1202,7 +1202,7 @@ h4 {
     .col-sm-12pg1 p{
         font-size: 20px;
         font-style: italic;
-        font-weight: 549;
+        font-weight: 500;
     }
     .col-sm-13pg1{
         padding: 0px 38px;
@@ -1210,7 +1210,7 @@ h4 {
     .col-sm-13pg1 p{
         font-size: 24px;
         font-style: italic;
-        font-weight: 549;
+        font-weight: 500;
     }
 
     .tc-whitepg2 {
