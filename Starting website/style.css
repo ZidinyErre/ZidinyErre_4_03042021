@@ -116,21 +116,6 @@ a:hover {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -366,6 +351,7 @@ a:hover {
 /*modif*/
 .navbar-brand img {
     width: 215px;
+    height: 40px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -793,7 +779,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -954,11 +940,13 @@ h4 {
     width: 1560px;
     padding: 0px;
 }
-/**/
-.bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
-}
 
+.bg-presentation {
+    background-image: url("img/image-de-presentation2.jpg");
+    width: 1560px;
+    padding: 0px;
+}
+/**/
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -974,6 +962,24 @@ h4 {
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
+    /*modif*/
+    .bloc .container {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        width: auto;
+    }
+    .tight-width-whitespace {
+        max-width: 600px;
+        margin-left: 90px;
+    }
+   .centeripad1{
+        margin-right: 10em;
+   }
+   .centeripad2{
+        margin-right: 16em;
+   }
+   /**/
     .navbar .nav {
         max-width: 80%
     }
@@ -1024,6 +1030,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1173,6 +1180,11 @@ h4 {
         padding-right: 0;
     }
     .bg-banniere{
+        background-image: url("img/la-chouette-agence-banniere_3.jpg");
+        width: auto;
+    }
+    .bg-presentation {
+        background-image: url("img/image-de-presentation2.jpg");
         width: auto;
     }
     
